@@ -151,18 +151,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="300" y2="0" width="0" layer="20"/>
-<wire x1="300" y1="0" x2="300" y2="100" width="0" layer="20"/>
-<wire x1="300" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<hole x="23.79375" y="78.575" drill="3"/>
-<hole x="276.20625" y="78.575" drill="3"/>
-<hole x="276.20625" y="21.425" drill="3"/>
-<hole x="23.79375" y="21.425" drill="3"/>
-<hole x="102.375" y="78.575" drill="3"/>
-<hole x="102.375" y="21.425" drill="3"/>
-<hole x="197.64375" y="78.58125" drill="3"/>
-<hole x="197.64375" y="21.43125" drill="3"/>
+<wire x1="10" y1="5" x2="290" y2="5" width="0" layer="20"/>
+<wire x1="290" y1="5" x2="290" y2="95" width="0" layer="20"/>
+<wire x1="290" y1="95" x2="12.5" y2="95" width="0" layer="20"/>
+<wire x1="12.5" y1="95" x2="10" y2="92.5" width="0" layer="20" curve="90"/>
+<wire x1="10" y1="92.5" x2="10" y2="5" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Jordi">
@@ -210,83 +203,6 @@
 <wire x1="14.2875" y1="9.525" x2="14.2875" y2="-9.525" width="0.254" layer="51"/>
 <wire x1="14.2875" y1="-9.525" x2="-14.2875" y2="-9.525" width="0.254" layer="51"/>
 <wire x1="-14.2875" y1="-9.525" x2="-14.2875" y2="9.525" width="0.254" layer="51"/>
-<text x="-6" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="CHERRY-MX-LED-1X1.25">
-<wire x1="6" y1="-7.8" x2="-6" y2="-7.8" width="0.127" layer="21"/>
-<wire x1="-6" y1="-7.8" x2="-7.8" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.8" y1="-6" x2="-7.8" y2="6" width="0.127" layer="21"/>
-<wire x1="-7.8" y1="6" x2="-6" y2="7.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-6" y1="7.8" x2="6" y2="7.8" width="0.127" layer="21"/>
-<wire x1="6" y1="7.8" x2="7.8" y2="6" width="0.127" layer="21" curve="-90"/>
-<wire x1="7.8" y1="6" x2="7.8" y2="-6" width="0.127" layer="21"/>
-<wire x1="7.8" y1="-6" x2="6" y2="-7.8" width="0.127" layer="21" curve="-90"/>
-<pad name="SW1" x="-3.81" y="2.54" drill="1.5" diameter="2.54"/>
-<pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="2.54"/>
-<hole x="0" y="0" drill="4"/>
-<pad name="LED1" x="-1.27" y="-3.81" drill="1" diameter="1.7"/>
-<pad name="LED2" x="1.27" y="-3.81" drill="1" diameter="1.7"/>
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
-<wire x1="-11.90625" y1="9.525" x2="11.90625" y2="9.525" width="0.254" layer="51"/>
-<wire x1="11.90625" y1="9.525" x2="11.90625" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="11.90625" y1="-9.525" x2="-11.90625" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="-11.90625" y1="-9.525" x2="-11.90625" y2="9.525" width="0.254" layer="51"/>
-<text x="-6" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="CHERRY-MX-LED-1X2">
-<wire x1="6" y1="-7.8" x2="-6" y2="-7.8" width="0.127" layer="21"/>
-<wire x1="-6" y1="-7.8" x2="-7.8" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.8" y1="-6" x2="-7.8" y2="6" width="0.127" layer="21"/>
-<wire x1="-7.8" y1="6" x2="-6" y2="7.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-6" y1="7.8" x2="6" y2="7.8" width="0.127" layer="21"/>
-<wire x1="6" y1="7.8" x2="7.8" y2="6" width="0.127" layer="21" curve="-90"/>
-<wire x1="7.8" y1="6" x2="7.8" y2="-6" width="0.127" layer="21"/>
-<wire x1="7.8" y1="-6" x2="6" y2="-7.8" width="0.127" layer="21" curve="-90"/>
-<pad name="SW1" x="-3.81" y="2.54" drill="1.5" diameter="2.54"/>
-<pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="2.54"/>
-<hole x="0" y="0" drill="4"/>
-<pad name="LED1" x="-1.27" y="-3.81" drill="1" diameter="1.7"/>
-<pad name="LED2" x="1.27" y="-3.81" drill="1" diameter="1.7"/>
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
-<wire x1="-19.05" y1="9.525" x2="19.05" y2="9.525" width="0.254" layer="51"/>
-<wire x1="19.05" y1="9.525" x2="19.05" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="19.05" y1="-9.525" x2="-19.05" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="-19.05" y1="-9.525" x2="-19.05" y2="9.525" width="0.254" layer="51"/>
-<hole x="11.9" y="7" drill="3.05"/>
-<hole x="-11.9" y="7" drill="3.05"/>
-<hole x="-11.9" y="-8.24" drill="4"/>
-<hole x="11.9" y="-8.24" drill="4"/>
-<text x="-6" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="CHERRY-MX-LED-1X2.75">
-<wire x1="6" y1="-7.8" x2="-6" y2="-7.8" width="0.127" layer="21"/>
-<wire x1="-6" y1="-7.8" x2="-7.8" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.8" y1="-6" x2="-7.8" y2="6" width="0.127" layer="21"/>
-<wire x1="-7.8" y1="6" x2="-6" y2="7.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-6" y1="7.8" x2="6" y2="7.8" width="0.127" layer="21"/>
-<wire x1="6" y1="7.8" x2="7.8" y2="6" width="0.127" layer="21" curve="-90"/>
-<wire x1="7.8" y1="6" x2="7.8" y2="-6" width="0.127" layer="21"/>
-<wire x1="7.8" y1="-6" x2="6" y2="-7.8" width="0.127" layer="21" curve="-90"/>
-<pad name="SW1" x="-3.81" y="2.54" drill="1.5" diameter="2.54"/>
-<pad name="SW2" x="2.54" y="5.08" drill="1.5" diameter="2.54"/>
-<hole x="0" y="0" drill="4"/>
-<pad name="LED1" x="-1.27" y="-3.81" drill="1" diameter="1.7"/>
-<pad name="LED2" x="1.27" y="-3.81" drill="1" diameter="1.7"/>
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
-<wire x1="-26.19375" y1="9.525" x2="26.19375" y2="9.525" width="0.254" layer="51"/>
-<wire x1="26.19375" y1="9.525" x2="26.19375" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="26.19375" y1="-9.525" x2="-26.19375" y2="-9.525" width="0.254" layer="51"/>
-<wire x1="-26.19375" y1="-9.525" x2="-26.19375" y2="9.525" width="0.254" layer="51"/>
-<hole x="11.9" y="7" drill="3.05"/>
-<hole x="-11.9" y="7" drill="3.05"/>
-<hole x="-11.9" y="-8.24" drill="4"/>
-<hole x="11.9" y="-8.24" drill="4"/>
 <text x="-6" y="6" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6" y="-7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -590,7 +506,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="S1" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="11.8875" y="88.1"/>
+<element name="S1" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="16.65" y="88.1"/>
 <element name="S2" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="35.7" y="88.1"/>
 <element name="S3" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="54.75" y="88.1"/>
 <element name="S4" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="73.8" y="88.1"/>
@@ -604,8 +520,8 @@ design rules under a new name.</description>
 <element name="S12" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="226.2" y="88.1"/>
 <element name="S13" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="245.25" y="88.1"/>
 <element name="S14" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="264.3" y="88.1"/>
-<element name="S15" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="288.1125" y="88.1"/>
-<element name="S16" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="11.90625" y="69.05625"/>
+<element name="S15" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="283.35" y="88.1"/>
+<element name="S16" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="16.66875" y="69.05625"/>
 <element name="S17" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="35.7" y="69.05"/>
 <element name="S18" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="54.75" y="69.05"/>
 <element name="S19" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="73.8" y="69.05"/>
@@ -619,8 +535,8 @@ design rules under a new name.</description>
 <element name="S27" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="226.2" y="69.05"/>
 <element name="S28" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="245.25" y="69.05"/>
 <element name="S29" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="264.3" y="69.05"/>
-<element name="S30" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="288.1125" y="69.05"/>
-<element name="S31" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="11.8875" y="50"/>
+<element name="S30" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="283.35" y="69.05"/>
+<element name="S31" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="16.65" y="50"/>
 <element name="S32" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="35.7" y="50"/>
 <element name="S33" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="54.75" y="50"/>
 <element name="S34" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="73.8" y="50"/>
@@ -632,35 +548,35 @@ design rules under a new name.</description>
 <element name="S40" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="188.1" y="50"/>
 <element name="S41" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="207.15" y="50"/>
 <element name="S42" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="226.2" y="50"/>
-<element name="S43" library="Jordi" package="CHERRY-MX-LED-1X2" value="" x="254.775" y="50"/>
-<element name="S44" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="288.1125" y="50"/>
-<element name="S45" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="11.8875" y="30.95"/>
-<element name="S46" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="35.7" y="30.95"/>
-<element name="S47" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="54.75" y="30.95"/>
-<element name="S48" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="73.8" y="30.95"/>
-<element name="S49" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="92.85" y="30.95"/>
-<element name="S50" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="111.9" y="30.95"/>
-<element name="S51" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="130.95" y="30.95"/>
-<element name="S52" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="150" y="30.95"/>
-<element name="S53" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="169.05" y="30.95"/>
-<element name="S54" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="188.1" y="30.95"/>
-<element name="S55" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="207.15" y="30.95"/>
-<element name="S56" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="230.9625" y="30.95"/>
-<element name="S57" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="254.775" y="30.95"/>
-<element name="S58" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="273.825" y="30.95"/>
-<element name="S59" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="292.875" y="30.95"/>
-<element name="S60" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="9.50625" y="11.9"/>
-<element name="S61" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="33.31875" y="11.9"/>
-<element name="S62" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="57.13125" y="11.9"/>
-<element name="S63" library="Jordi" package="CHERRY-MX-LED-1X2.75" value="" x="95.23125" y="11.9"/>
-<element name="S64" library="Jordi" package="CHERRY-MX-LED-1X2.75" value="" x="147.61875" y="11.9"/>
-<element name="S65" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="185.71875" y="11.9"/>
-<element name="S66" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="209.53125" y="11.9"/>
-<element name="S67" library="Jordi" package="CHERRY-MX-LED-1X1.25" value="" x="233.34375" y="11.9"/>
-<element name="S68" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="254.775" y="11.9"/>
-<element name="S69" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="273.825" y="11.9"/>
-<element name="S70" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="292.875" y="11.9"/>
-<element name="U$1" library="SparkFun-DigitalIC" package="TQFP44" value="ATMEGA32U4TQFP-44" x="273.84375" y="50.00625" rot="MR0"/>
+<element name="S43" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="245.25" y="50"/>
+<element name="S44" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="264.3" y="50"/>
+<element name="S45" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="283.35" y="50"/>
+<element name="S46" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="16.65" y="30.95"/>
+<element name="S47" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="35.7" y="30.95"/>
+<element name="S48" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="54.75" y="30.95"/>
+<element name="S49" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="73.8" y="30.95"/>
+<element name="S50" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="92.85" y="30.95"/>
+<element name="S51" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="111.9" y="30.95"/>
+<element name="S52" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="130.95" y="30.95"/>
+<element name="S53" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="150" y="30.95"/>
+<element name="S54" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="169.05" y="30.95"/>
+<element name="S55" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="188.1" y="30.95"/>
+<element name="S56" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="207.15" y="30.95"/>
+<element name="S57" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="226.2" y="30.95"/>
+<element name="S58" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="245.25" y="30.95"/>
+<element name="S59" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="264.3" y="30.95"/>
+<element name="S60" library="Jordi" package="CHERRY-MX-LED-1X1" value="" x="283.35" y="30.95"/>
+<element name="S61" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="21.4125" y="11.9"/>
+<element name="S62" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="49.9875" y="11.9"/>
+<element name="S63" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="78.5625" y="11.9"/>
+<element name="S64" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="107.1375" y="11.9"/>
+<element name="S65" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="135.7125" y="11.9"/>
+<element name="S66" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="164.2875" y="11.9"/>
+<element name="S67" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="192.8625" y="11.9"/>
+<element name="S68" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="221.4375" y="11.9"/>
+<element name="S69" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="250.0125" y="11.9"/>
+<element name="S70" library="Jordi" package="CHERRY-MX-LED-1X1.5" value="" x="278.5875" y="11.9"/>
+<element name="U$1" library="SparkFun-DigitalIC" package="TQFP44" value="ATMEGA32U4TQFP-44" x="150.01875" y="11.90625" rot="MR0"/>
 </elements>
 <signals>
 </signals>
