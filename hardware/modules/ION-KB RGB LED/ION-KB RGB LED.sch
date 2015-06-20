@@ -142,88 +142,112 @@
 <libraries>
 <library name="Jordi">
 <packages>
-<package name="LED-SMD-RA">
-<description>&lt;a href="http://www.digikey.com/product-detail/en/LW%20Y1SG-BFCF-GKJM-1-Z/475-2906-1-ND/2415162"&gt; Digikey Part &lt;/a&gt;</description>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="0.9" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="0.9" layer="1"/>
-<wire x1="-1.225" y1="-0.4" x2="-1.225" y2="0.4" width="0.127" layer="21"/>
-<wire x1="-1.225" y1="0.4" x2="-1.2" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0.8" x2="1.225" y2="0.4" width="0.127" layer="21"/>
-<wire x1="1.225" y1="0.4" x2="1.225" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="1.225" y1="-0.4" x2="-1.225" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="1.225" y1="0.4" x2="-1.225" y2="0.4" width="0.0762" layer="21"/>
-<wire x1="-1.2" y1="0.8" x2="-0.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="0.8" x2="-0.4" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0.8" x2="0.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.6" y1="0.8" x2="0.4" y2="0.65" width="0.127" layer="21"/>
-<wire x1="0.4" y1="0.65" x2="-0.4" y2="0.65" width="0.127" layer="21"/>
-<rectangle x1="-1.4" y1="-0.3" x2="-1.225" y2="0" layer="51"/>
-<rectangle x1="1.225" y1="-0.3" x2="1.4" y2="0" layer="51"/>
-<wire x1="0" y1="0.2" x2="0" y2="-0.2" width="0.0762" layer="21"/>
-<wire x1="0" y1="-0.2" x2="-0.2" y2="0" width="0.0762" layer="21"/>
-<wire x1="0" y1="-0.2" x2="0.2" y2="0" width="0.0762" layer="21"/>
+<package name="LED-10MM-RGB-PTH">
+<hole x="-0.7" y="0" drill="1"/>
+<hole x="0.7" y="0" drill="1"/>
+<hole x="2.1" y="0" drill="1"/>
+<hole x="-2.1" y="0" drill="1"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<wire x1="5" y1="2.3" x2="5" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="0" y1="5.5" x2="5" y2="2.3" width="0.2032" layer="21" curve="-65.29757"/>
+<wire x1="0" y1="-5.5" x2="5" y2="-2.3" width="0.2032" layer="21" curve="65.29757"/>
+<wire x1="0" y1="5.5" x2="0" y2="-5.5" width="0.2032" layer="21" curve="180"/>
+<smd name="1" x="-2.1" y="0.75" dx="1" dy="2.5" layer="16" roundness="100"/>
+<smd name="2" x="-0.7" y="-0.75" dx="1" dy="2.5" layer="16" roundness="100"/>
+<smd name="3" x="0.7" y="0.75" dx="1" dy="2.5" layer="16" roundness="100"/>
+<smd name="4" x="2.1" y="-0.75" dx="1" dy="2.5" layer="16" roundness="100"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="L0603">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB Q993&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
-<wire x1="-0.45" y1="-0.4" x2="0.45" y2="-0.4" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="0.4" x2="0.45" y2="0.4" width="0.1016" layer="51"/>
-<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="A" x="0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
-<text x="-1.27" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.1" y1="-0.2" x2="-0.2" y2="0.2" layer="51" rot="R90"/>
-<rectangle x1="0.2" y1="-0.2" x2="1.1" y2="0.2" layer="51" rot="R90"/>
-<wire x1="0.254" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="0" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="0" y2="0.254" width="0.127" layer="21"/>
+<package name="LED-10MM-RGB-EDGE">
+<smd name="1" x="-3.5" y="2.1" dx="1" dy="5" layer="1" rot="R270"/>
+<smd name="2" x="-3.5" y="0.7" dx="1" dy="5" layer="1" rot="R270"/>
+<smd name="3" x="-3.5" y="-0.7" dx="1" dy="5" layer="1" rot="R270"/>
+<smd name="4" x="-3.5" y="-2.1" dx="1" dy="5" layer="1" rot="R270"/>
+<wire x1="0" y1="5.5" x2="0" y2="-5.5" width="0.2032" layer="51"/>
+<wire x1="0" y1="-5.5" x2="2" y2="-5.5" width="0.2032" layer="51"/>
+<wire x1="2" y1="-5.5" x2="2" y2="-5" width="0.2032" layer="51"/>
+<wire x1="0" y1="5.5" x2="2" y2="5.5" width="0.2032" layer="51"/>
+<wire x1="2" y1="5.5" x2="2" y2="5" width="0.2032" layer="51"/>
+<wire x1="2" y1="5" x2="9" y2="5" width="0.2032" layer="51"/>
+<wire x1="9" y1="5" x2="14" y2="0" width="0.2032" layer="51" curve="-90"/>
+<wire x1="2" y1="-5" x2="9" y2="-5" width="0.2032" layer="51"/>
+<wire x1="9" y1="-5" x2="14" y2="0" width="0.2032" layer="51" curve="90"/>
+<wire x1="2" y1="5" x2="2" y2="-5" width="0.2032" layer="51"/>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="LED-SMD-RGB">
+<description>&lt;a href="http://www.digikey.com/product-search/en?KeyWords=160-2022-1-ND"&gt;Digikey Part&lt;/a&gt;</description>
+<smd name="B" x="0.7" y="0.6" dx="1" dy="0.7" layer="1"/>
+<smd name="R" x="-0.7" y="0.6" dx="1" dy="0.7" layer="1"/>
+<smd name="G" x="-0.7" y="-0.6" dx="1" dy="0.7" layer="1"/>
+<smd name="A" x="0.7" y="-0.6" dx="1" dy="0.7" layer="1"/>
+<wire x1="-1.05" y1="0.8" x2="1.05" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.8" x2="-1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-0.8" x2="-1.05" y2="0.8" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="0.635" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.635" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="LED">
-<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="2.032" x2="-2.159" y2="3.429" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="1.905" x2="-3.302" y2="3.302" width="0.1524" layer="94"/>
-<text x="-5.08" y="-3.556" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="C" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-2.159" y="3.429"/>
-<vertex x="-1.27" y="3.048"/>
-<vertex x="-1.778" y="2.54"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="3.302"/>
-<vertex x="-2.413" y="2.921"/>
-<vertex x="-2.921" y="2.413"/>
-</polygon>
+<symbol name="LED-RGB-CA">
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="G" x="10.16" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="B" x="10.16" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-10.16" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="R" x="10.16" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" prefix="LED" uservalue="yes">
+<deviceset name="LED-RGB-CA" prefix="LED">
+<description>RGB LED</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED-RGB-CA" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="SMD-RA" package="LED-SMD-RA">
+<device name="PTH" package="LED-10MM-RGB-PTH">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="R" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603" package="L0603">
+<device name="EDGE" package="LED-10MM-RGB-EDGE">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="R" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="LED-SMD-RGB">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="R" pad="R"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -243,56 +267,44 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="LED1" library="Jordi" deviceset="LED" device="0603" value="Red"/>
-<part name="LED2" library="Jordi" deviceset="LED" device="0603" value="Green"/>
-<part name="LED3" library="Jordi" deviceset="LED" device="0603" value="Blue"/>
+<part name="LED4" library="Jordi" deviceset="LED-RGB-CA" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="LED1" gate="G$1" x="5.08" y="10.16" rot="R90"/>
-<instance part="LED2" gate="G$1" x="15.24" y="10.16" rot="R90"/>
-<instance part="LED3" gate="G$1" x="25.4" y="10.16" rot="R90"/>
+<instance part="LED4" gate="G$1" x="12.7" y="-12.7"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="A" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="5.08" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="15.24" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="15.24" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
-<junction x="15.24" y="15.24"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
-<label x="15.24" y="17.78" size="1.778" layer="95" rot="R90"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="2.54" y1="-12.7" x2="0" y2="-12.7" width="0.1524" layer="91"/>
+<label x="0" y="-12.7" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="R" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
-<label x="5.08" y="2.54" size="1.778" layer="95" rot="R270"/>
+<pinref part="LED4" gate="G$1" pin="R"/>
+<wire x1="22.86" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
+<label x="25.4" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="15.24" y1="5.08" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<label x="15.24" y="2.54" size="1.778" layer="95" rot="R270"/>
+<pinref part="LED4" gate="G$1" pin="G"/>
+<wire x1="22.86" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="25.4" y1="5.08" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<label x="25.4" y="2.54" size="1.778" layer="95" rot="R270"/>
+<pinref part="LED4" gate="G$1" pin="B"/>
+<wire x1="22.86" y1="-12.7" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
