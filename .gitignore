@@ -1,4 +1,16 @@
 *~.skp
 *.skb
 *.*#*
+*.gpi
+*.dri
+*.GKO
+*.GBL
+*.GBP
+*.GBO
+*.GBS
+*.XLN
+*.GTL
+*.GTP
+*.GTO
+*.GTS
 media/images/old/*
