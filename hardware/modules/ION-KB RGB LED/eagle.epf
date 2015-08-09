@@ -363,6 +363,7 @@ UsedLibrary="C:/Users/Jordi Orlando/Documents/GitHub/SparkFun-Eagle-Libraries/Sp
 UsedLibrary="C:/Users/Jordi Orlando/Documents/GitHub/SparkFun-Eagle-Libraries/SparkFun-Retired.lbr"
 UsedLibrary="C:/Users/Jordi Orlando/Documents/GitHub/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
 UsedLibrary="C:/Users/Jordi Orlando/Documents/GitHub/SparkFun-Eagle-Libraries/User-Submitted.lbr"
+UsedLibrary="C:/Users/Jordi Orlando/Documents/GitHub/Adafruit-Eagle-Library/adafruit.lbr"
 
 [Win_1]
 Type="Control Panel"
